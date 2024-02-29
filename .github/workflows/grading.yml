@@ -2,7 +2,7 @@ name: Grading workflow
 on:
   push:
     paths:
-      - ".github/workflows/codeQL.yml.github/codeql/codeql-config.yml"
+      - ".github/codeql/codeql-config.yml"
   workflow_dispatch:
 
 jobs:
